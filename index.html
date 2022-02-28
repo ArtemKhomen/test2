@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+     
+    <body>
+        <!--<h1>ПРИШЁЛ ШТРАФ ОТ МВД РФ</h1>-->
+        <img onclick="soundClick()"src= "gordon.jpg">
+    </body>
+    <script>
+        function soundClick() {
+        var audio = new Audio(); // Создаём новый элемент Audio
+        audio.src = 'valve.mp3'; // Указываем путь к звуку "клика"
+        audio.autoplay = true; // Автоматически запускаем
+        }
+    </script>
+</html>
